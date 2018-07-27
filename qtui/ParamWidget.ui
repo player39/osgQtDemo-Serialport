@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ParamWidget</class>
+ <widget class="QWidget" name="ParamWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>246</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>angle</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>X</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QLabel" name="label_7">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Z</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="QLabel_Rotate">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Rotate</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="lineEdit_sy"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_rx"/>
+     </item>
+     <item row="4" column="4">
+      <widget class="QPushButton" name="pushButton_Rotate">
+       <property name="text">
+        <string>Sure</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Y</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLineEdit" name="lineEdit_angle"/>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="pushButton_Stretchin">
+       <property name="text">
+        <string>Sure</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLineEdit" name="lineEdit_rootrx"/>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="pushButton_reset">
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLineEdit" name="lineEdit_rz"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Z</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="lineEdit_rootsx"/>
+     </item>
+     <item row="10" column="3">
+      <widget class="QLineEdit" name="lineEdit_rootsz"/>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLineEdit" name="lineEdit_rootra"/>
+     </item>
+     <item row="12" column="2">
+      <widget class="QLineEdit" name="lineEdit_rootry"/>
+     </item>
+     <item row="12" column="4">
+      <widget class="QPushButton" name="pushButton_dataRotate">
+       <property name="text">
+        <string>Sure</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="2">
+      <widget class="QLineEdit" name="lineEdit_rootty"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Delta</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLabel" name="label_Translate">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Translate</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLineEdit" name="lineEdit_tz"/>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLineEdit" name="lineEdit_roottx"/>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="lineEdit_sz"/>
+     </item>
+     <item row="13" column="2">
+      <widget class="QLabel" name="label_12">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Translate</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="QLabels_x">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>X</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="lineEdit_ry"/>
+     </item>
+     <item row="10" column="2">
+      <widget class="QLineEdit" name="lineEdit_rootsy"/>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>angle</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="3">
+      <widget class="QLineEdit" name="lineEdit_rootrz"/>
+     </item>
+     <item row="14" column="3">
+      <widget class="QLineEdit" name="lineEdit_roottz"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="lineEdit_tx"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Y</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QPushButton" name="QPushButton_Translate">
+       <property name="text">
+        <string>Sure</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="lineEdit_ty"/>
+     </item>
+     <item row="11" column="2">
+      <widget class="QLabel" name="label_9">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Rotate</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="QLabel_Stretching">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Stretching</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_sx">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="4">
+      <widget class="QPushButton" name="pushButton_dataStretching">
+       <property name="text">
+        <string>Sure</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="4">
+      <widget class="QPushButton" name="pushButton_dataTranslate">
+       <property name="text">
+        <string>Sure</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Line</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Times New Roman</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>Stretching</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="4">
+      <widget class="QPushButton" name="pushButton_datareset">
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
